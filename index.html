@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dennis Kim</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />	
+		<script src="https://use.fontawesome.com/de751f9117.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117141991-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-117141991-1');
+		</script>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper" class="divided">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				
+				<!-- Header -->
+					<header id="header">
+						<h1>Dennis Kim</h1>
+						<p class="major" style: "margin-bottom: 0rem">
+							    front-end developer + video game enthusiast
+						 </p>
+
+						<div>
+							<span id="typed"></span>
+
+							<div id="typed-strings">
+								<p>currently studying computer science @ <b>university of toronto</b>^1000</p>
+								<p>previously a global IT intern @ <b>samsung biologics</b>^1000</p>
+								<p>previously a ux designer @ <b>taglab</b>^1000</p>
+							</div>
+						</div>
+
+						<nav>
+							<ul class="icons">
+								<li><a href="assets/Dennis Kim Resume (2020).pdf" class="fa fa-file"><span class="label">Resume</span></a></li>
+								<li class="separator"> | </li>
+								<li><a href="https://www.linkedin.com/in/1kimden/" class="fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li class="separator"> | </li>
+								<li><a href="https://github.com/kimdennis" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li class="separator"> | </li>
+								<li><a href="mailto:dennis.kim@ryerson.ca" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<!-- <footer id="footer">
+						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer> -->
+
+			</div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="jquery.min.js"></script>
+			<script src="jquery.scrollex.min.js"></script>
+			<script src="jquery.scrolly.min.js"></script>
+			<script src="skel.min.js"></script>
+			<script src="util.js"></script>
+			<script src="index.js"></script>
+			<script src="typed.min.js"></script>
+
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+
+			var typed = new Typed('#typed', {
+					stringsElement: '#typed-strings',
+					loop: true,
+					fadeOut: true,
+					typeSpeed: 30,
+				});
+		</script>
+	</body>
+</html>
